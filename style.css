@@ -1,0 +1,123 @@
+
+body{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  *{
+    padding: 0;
+    margin: 0;
+
+}
+
+.main{
+    color: white;
+    background-color: black;
+   padding: 20px;
+}
+.main__contact{
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top:5px;
+    padding-bottom:5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.main__role{
+    font-size: 20px;
+    margin-top:10px;
+}
+.main__name{
+    font-size: 50px;
+}
+.container{
+    padding: 20px;
+}
+
+.main-two , .main-three , .main-four , .main-five{
+    margin-top: 20px;
+}
+.main-two__desc , .main-three__list , .main-four__list , .main-five__list{
+    margin-top: 10px;
+}
+.end{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.end p{
+    margin-top: 10px;
+}
+.end-para a {
+    color: skyblue;
+}
+.main-four__list , .main-five__list, .main-three__list{
+ list-style: none;
+}
+
+.main-four{
+    background-color: #6462FD;
+    color: black;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 12px;
+    height: 200px;
+
+}
+
+.main-five
+{
+    background-color: #FE7517;
+    color:black;
+    padding: 30px;
+    margin-left: 2px;
+    display: inline-block;
+    border-radius: 12px;
+    height: 200px;
+
+
+}
+.total-bar{
+margin: 20px;
+display: flex;
+
+}
+.form-input{
+margin-top: 20px;
+
+}
+.form-input__name , .form-input__text  , .form-input__button{
+    margin-top: 10px;
+
+
+}
+.form-input__name , .form-input__text{
+    border: none;
+    padding: 10px;
+}
+
+.form-input__name {
+    border-bottom: solid black 1px;
+}
+
+.form-input__text{
+    border: solid black 1px;
+}
+.form-input__button{
+    background-color: orangered;
+    color: black;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-top: 10px;
+border: none;
+
+
+}
